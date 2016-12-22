@@ -1,0 +1,11 @@
+﻿  LexAnalize.cpp
+d:\last\kp\key-2016\key-2016\lexanalize.cpp(37): warning C4101: rez: неиспользованная локальная переменная
+  KEY-2016.cpp
+  Создание кода...
+  Компиляция...
+  PolishNotation.cpp
+  MFST.cpp
+d:\last\kp\key-2016\key-2016\mfst.cpp(221): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+  Создание кода...
+  KEY-2016.vcxproj -> D:\LAST\KP\KEY-2016\Debug\KEY-2016.exe
+  KEY-2016.vcxproj -> D:\LAST\KP\KEY-2016\Debug\KEY-2016.pdb (Full PDB)

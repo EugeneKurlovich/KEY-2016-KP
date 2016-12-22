@@ -1,0 +1,23 @@
+math;
+
+function test (number a, number b, word s)
+{
+create number rez;
+
+rez = b-a*(a + b);
+out(rez);
+rez = koren(s);
+out(s);
+return rez;
+}
+start
+[
+create word m;
+m ='Hello World';
+create number a;
+a = 5;
+create number c;
+c = test(a,1,m);
+out(c);
+end;
+]

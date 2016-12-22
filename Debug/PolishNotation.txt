@@ -1,0 +1,24 @@
+start
+[
+create number a;
+create number b;
+create number c;
+create number d;
+create number e;
+
+a = 2;
+b = 4;
+c = 6;
+d = 5;
+e = 10;
+
+create number rez;
+create number res;
+
+rez = a * (b /2) * c ;
+out(rez);
+res = (d +e) - (c * 4) ;
+out(res);
+
+end;
+]

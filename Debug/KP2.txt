@@ -1,0 +1,37 @@
+function sum (number a, number b, number c)
+{
+create number result;
+result = (a + b) * c *b;
+out(result);
+return result;
+}
+
+function trt(word f)
+{
+out(f);
+return f;
+}
+
+start
+[
+math;
+create number a;
+create word message;
+create number b;
+a = 6;
+b = 25;
+message = 'Hello World';
+out(message);
+create number rez;
+rez = sum(18,a,b);
+out(rez);
+create number k;
+create number s;
+k = koren(b);
+s = step(a);
+out(k);
+out(s);
+create number ppp;
+ppp = trt(message);
+end;
+]

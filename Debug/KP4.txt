@@ -1,0 +1,56 @@
+math;
+function sum(number a, number b, number c)
+{
+create number rez;
+rez = a *(b + c) / a;
+out('Function is worked');
+return rez;
+}
+
+function rzn (number d, number e, word f)
+{
+create number res;
+res = d*(d +e)*d *d;
+out(f); 
+return res;
+}
+
+
+[
+create number a;
+create number b;
+create number c;
+create number d;
+create number e;
+create word f;
+create number k;
+
+a = -2;
+b = 4;
+c = -6;
+d = 5;
+e = 10;
+f = 'Function is END';
+
+create number rez;
+create number res;
+
+rez = sum (a,c, b);
+out(rez);
+res = rzn (d,e,f);
+out(res);
+rez = sum(1,-2,3);
+out(rez);
+
+create number s;
+
+k = koren(rez);
+s = step(res);
+
+out(k);
+out(s);
+
+out('test');
+
+end;
+]
